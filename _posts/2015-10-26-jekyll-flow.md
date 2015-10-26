@@ -7,9 +7,19 @@ categories: Jekyll Code
 
 In this post, we will take a brief look at how to work with Jekyll. We assume that Jekyll has been successfully installed and is working fine.
 
-# Jekyll Init
+# Content
 
-## Setting up a new Jekyll site (on GitHub).
+- [Jekyll Init](#init)
+    - [Setting up a new Jekyll site (on GitHub).](#setup)
+    - [Customizing the new Jekyll site.](#customize)
+- [Jekyll Flow](#flow)
+    - [From a rough idea to a published blog post.](#flow)
+
+
+
+# Jekyll Init {#init}
+
+## Setting up a new Jekyll site (on GitHub). {#setup}
 
 1. create a new repository on Github with the following name: `<GitHub User>.github.io`
 1. clone that repository to a local dev folder (`myJekyllRepo` in this example)
@@ -27,13 +37,13 @@ $ git commit -m "initial commit for myJekyllRepo"
 $ git push
 ```
 
-## Customizing the new Jekyll site.
+## Customizing the new Jekyll site. {#customize}
 
 1. to come
 1. to come
 1. ...
 
-# Jekyll Flow
+# Jekyll Flow {#flow}
 
 ## From a rough idea to a published blog post.
 
@@ -57,11 +67,24 @@ tags: <tags>
    ```
 
    **where**
-   - `<document type>` is  `post` or `page` (or others, depending on the used layout)
-   - `<title>` is your title
-   - `<date>` is the date the post should be filed under (if omitted, date will be taken from post name, see step 7. below)
-   - `<categories>` is one or more (space seperated) categories the post should be filed under (note: the categories are hierarchical. `cat1 cat2` means the post will be filed under `/cat1/cat2/...`)
-   - `<tags>` is one or more tags that should be associated with the post
+
+    - `<document type>` is  `post` or `page` (or others, depending on the used layout)
+    - `<title>` is your title
+    - `<date>` is the date the post should be filed under (if omitted, date will be taken from post name, see step 7. below)
+    - `<categories>` is one or more (space seperated) categories the post should be filed under (note: the categories are hierarchical. `cat1 cat2` means the post will be filed under `/cat1/cat2/...`)
+    - `<tags>` is one or more tags that should be associated with the post
+
+    - *your new file could look similar to this*
+   
+      ``` YAML
+---
+layout: post
+title: blogging with Jekyll
+date:   2015-10-26
+categories: Jekyll Code
+---
+This is my new blog post...
+      ```
 
 
 1. **Start local Jekyll Server** with `--draft` option. 
@@ -89,7 +112,22 @@ $ mv _drafts/jekyll-flow.md _posts/2015-10-26-jekyll-flow.md
    `
 $ bundle exec jekyll serve
    `
-1.
+1. Commit and push your new post to your remote Github repository
+
+   ```
+$ git add _posts/
+$ git commit -m "added a new post"
+$ git push
+   ```
+
+1. Give Github some time to run Jekyll for you
+1. **enjoy your new blog post** @ `http:\\<GitHub User>.github.io`
+
+
+Hope this helps somehow. :)
+
+Best,
+Thomas
 
 
 
