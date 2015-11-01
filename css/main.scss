@@ -50,3 +50,29 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+a.site-title > .char1, 
+a.site-title > .char2, 
+a.site-title > .char3, 
+a.site-title > .char4, 
+a.site-title > .char5, 
+a.site-title > .char6 { 
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	font-size: 56px;
+
+}
+
+a.site-title > .char7, 
+a.site-title > .char8, 
+a.site-title > .char9, 
+a.site-title > .char10, 
+a.site-title > .char11, 
+a.site-title > .char12, 
+a.site-title > .char13, 
+a.site-title > .char14 { 
+	font-family: 'Share Tech Mono', monospaces;
+	font-weight: 400;
+	font-size: 56px;
+
+}
