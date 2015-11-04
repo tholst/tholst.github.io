@@ -76,3 +76,27 @@ a.site-title > .char14 {
 	font-size: 56px;
 
 }
+
+a.site-title:hover > .char1, 
+a.site-title:hover > .char2, 
+a.site-title:hover > .char3, 
+a.site-title:hover > .char4, 
+a.site-title:hover > .char5, 
+a.site-title:hover > .char6 { 
+	font-family: 'Share Tech Mono', monospaces;
+}
+
+a.site-title:hover > .char7, 
+a.site-title:hover > .char8, 
+a.site-title:hover > .char9, 
+a.site-title:hover > .char10, 
+a.site-title:hover > .char11, 
+a.site-title:hover > .char12, 
+a.site-title:hover > .char13, 
+a.site-title:hover > .char14 { 
+	font-family: 'Lobster', cursive;
+}
+
+a.site-title:hover {
+	text-decoration: none;	
+}
