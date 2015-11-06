@@ -16,9 +16,11 @@ categories: Jekyll
 
 # JavaScript journey #
 
-Context: Web, Programming Language, Client, Server
+## Context ##
 
-Learning path:
+Web, Programming Language, Client, Server
+
+## Learning path ##
 
 1. Basics
     - Grammar
@@ -75,3 +77,27 @@ Learning path:
     - Language Standard Development (EcmaScript 6/7)
     - History
 
+## Resources ##
+
+- Online Reading
+    - [MDN JS Guide][]
+- Interactive Tutorials
+    - [codeschool][]
+    - [nodeschool][]
+- Free Ebooks
+    - [eloquent js][]
+    - [ydk js][]
+- Books
+    - [TGP][] by Douglas Crockford
+    - [Ninja][] by John Resig
+    - [POOJS][] by Nicholas C. Zakas
+
+
+[MDN JS Guide]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide 
+[nodeschool]: http://nodeschool.io/
+[eloquent js]: http://eloquentjavascript.net/ 
+[codeschool]: https://www.codeschool.com
+[ydk js]: https://github.com/getify/You-Dont-Know-JS
+[TGP]: http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742 "JavaScript The Good Parts"
+[Ninja]: http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X "Secrets of the JavaScript Ninja"
+[POOJS]: http://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404 "The Principles of Object-Oriented JavaScript"
